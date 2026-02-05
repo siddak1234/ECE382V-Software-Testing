@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pset1.HashCodeTester" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-01-25T06:19:52.080Z" hostname="Siddaks-MacBook-Pro.local" time="0.001">
+  <properties/>
+  <testcase name="t0" classname="pset1.HashCodeTester" time="0.0"/>
+  <testcase name="t1" classname="pset1.HashCodeTester" time="0.0"/>
+  <testcase name="t2" classname="pset1.HashCodeTester" time="0.0"/>
+  <testcase name="t3" classname="pset1.HashCodeTester" time="0.0"/>
+  <testcase name="t4" classname="pset1.HashCodeTester" time="0.0"/>
+  <testcase name="t5" classname="pset1.HashCodeTester" time="0.0"/>
+  <testcase name="t6" classname="pset1.HashCodeTester" time="0.0"/>
+  <testcase name="t7" classname="pset1.HashCodeTester" time="0.001"/>
+  <testcase name="t8" classname="pset1.HashCodeTester" time="0.0"/>
+  <testcase name="t9" classname="pset1.HashCodeTester" time="0.0"/>
+  <testcase name="t10" classname="pset1.HashCodeTester" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

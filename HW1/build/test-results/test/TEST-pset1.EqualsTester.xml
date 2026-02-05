@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pset1.EqualsTester" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-01-25T06:19:52.073Z" hostname="Siddaks-MacBook-Pro.local" time="0.004">
+  <properties/>
+  <testcase name="t0" classname="pset1.EqualsTester" time="0.001"/>
+  <testcase name="t1" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t2" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t3" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t4" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t5" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t6" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t7" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t8" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t9" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t10" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t11" classname="pset1.EqualsTester" time="0.001"/>
+  <testcase name="t12" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t13" classname="pset1.EqualsTester" time="0.0"/>
+  <testcase name="t14" classname="pset1.EqualsTester" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
