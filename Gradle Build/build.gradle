@@ -4,7 +4,9 @@ plugins {
 
 def centralBuildDir = file("$rootDir/gradle-build")
 
-subprojects {
+def hwProjects = [project(':HW1'), project(':HW2')]
+
+configure(hwProjects) {
   apply plugin: 'java'
 
   repositories {
@@ -28,6 +30,28 @@ subprojects {
     }
   }
 
-  // Keep all build outputs in one folder at the repo root
+  // Keep all build outputs in one folder under Gradle Build
   buildDir = new File(centralBuildDir, project.name)
+}
+
+project(':HW1') {
+  sourceSets {
+    main {
+      java { srcDirs = [] }
+    }
+    test {
+      java { srcDirs = ['ps1'] }
+    }
+  }
+}
+
+project(':HW2') {
+  sourceSets {
+    main {
+      java { srcDirs = [] }
+    }
+    test {
+      java { srcDirs = ['ps4'] }
+    }
+  }
 }

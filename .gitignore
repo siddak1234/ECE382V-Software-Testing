@@ -2,7 +2,7 @@
 .gradle/
 .gradle-user-home/
 **/build/
-/gradle-build/
+**/gradle-build/
 
 # OS files
 .DS_Store
