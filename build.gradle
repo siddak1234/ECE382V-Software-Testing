@@ -1,0 +1,33 @@
+plugins {
+  id 'java'
+}
+
+def centralBuildDir = file("$rootDir/gradle-build")
+
+subprojects {
+  apply plugin: 'java'
+
+  repositories {
+    mavenCentral()
+  }
+
+  dependencies {
+    testImplementation 'junit:junit:4.13.2'
+  }
+
+  java {
+    toolchain {
+      languageVersion = JavaLanguageVersion.of(17)
+    }
+  }
+
+  test {
+    useJUnit()
+    testLogging {
+      events 'passed', 'skipped', 'failed'
+    }
+  }
+
+  // Keep all build outputs in one folder at the repo root
+  buildDir = new File(centralBuildDir, project.name)
+}

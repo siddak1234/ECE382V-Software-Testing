@@ -1,1 +1,12 @@
+# Gradle
+.gradle/
 .gradle-user-home/
+**/build/
+/gradle-build/
+
+# OS files
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

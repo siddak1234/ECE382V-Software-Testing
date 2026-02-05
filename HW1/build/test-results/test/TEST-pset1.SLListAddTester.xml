@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pset1.SLListAddTester" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-01-25T06:19:52.082Z" hostname="Siddaks-MacBook-Pro.local" time="0.0">
-  <properties/>
-  <testcase name="test0" classname="pset1.SLListAddTester" time="0.0"/>
-  <testcase name="test1" classname="pset1.SLListAddTester" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
