@@ -4,7 +4,7 @@ plugins {
 
 def centralBuildDir = file("$rootDir/gradle-build")
 
-def hwProjects = [project(':HW1'), project(':HW2')]
+def hwProjects = [project(':HW1'), project(':HW2'), project(':HW3')]
 
 configure(hwProjects) {
   apply plugin: 'java'
@@ -52,6 +52,17 @@ project(':HW2') {
     }
     test {
       java { srcDirs = ['ps4'] }
+    }
+  }
+}
+
+project(':HW3') {
+  sourceSets {
+    main {
+      java { srcDirs = [] }
+    }
+    test {
+      java { srcDirs = ['ps7'] }
     }
   }
 }
