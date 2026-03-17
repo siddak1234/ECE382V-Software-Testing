@@ -171,13 +171,17 @@ XRFInterface::Error VirtualATLASHardwareElement::EnableBeam()
 	HardwareLockGuard lock(m_hardware_lock);
 	if (!lock.IsLocked()) { return XRFInterface::Error::generic_error; }
 
-return XRFInterface::Error::no_error;
+	m_beam_on = TRUE;
+
+	return XRFInterface::Error::no_error;
 }
 
 XRFInterface::Error VirtualATLASHardwareElement::DisableBeam()
 {
 	HardwareLockGuard lock(m_hardware_lock);
 	if (!lock.IsLocked()) { return XRFInterface::Error::generic_error; }
+
+	m_beam_on = FALSE;
 
 	return XRFInterface::Error::no_error;
 }
@@ -187,7 +191,7 @@ std::expected<BOOL, XRFInterface::Error> VirtualATLASHardwareElement::IsBeamEmit
 	HardwareLockGuard lock(m_hardware_lock);
 	if (!lock.IsLocked()) { return std::unexpected(XRFInterface::Error::generic_error); }
 
-	return TRUE;
+	return m_beam_on;
 }
 
 std::expected<BOOL, XRFInterface::Error> VirtualATLASHardwareElement::HasShutter()

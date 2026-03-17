@@ -47,6 +47,7 @@ protected:
 	double m_set_kv = 50;
 	double m_set_ua = 1'000;
 	BOOL m_shutter = FALSE;
+	BOOL m_beam_on = TRUE;
 
 	virtual std::expected<double, XRFInterface::Error> GetkV();
 	virtual std::expected<double, XRFInterface::Error> GetTargetkV();
